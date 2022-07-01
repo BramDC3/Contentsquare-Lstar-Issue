@@ -1,0 +1,23 @@
+name: Releases
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  releases:
+    name: profile apk
+    runs-on: ubuntu-latest
+    env:
+      JAVA_VERSION: "11.0"
+      FLUTTER_VERSION: "3.0.3"
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: $
+      - uses: subosito/flutter-action@v1
+        with:
+          flutter-version: $
+      - run: flutter pub get
+      - run: flutter build apk --profile

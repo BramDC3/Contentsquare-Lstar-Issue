@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-365312257/android.contentsquare.iml" filepath="$PROJECT_DIR$/.idea/modules/-365312257/android.contentsquare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-152521216/android.webview_flutter_android.iml" filepath="$PROJECT_DIR$/.idea/modules/-152521216/android.webview_flutter_android.iml" />
+    </modules>
+  </component>
+</project>
